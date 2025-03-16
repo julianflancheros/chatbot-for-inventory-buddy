@@ -650,4 +650,3 @@ export const products: Product[] = [
       camara: {
         principal: "1'' Sony IMX989",
         zoom: "10x óptico",
-        video: "
