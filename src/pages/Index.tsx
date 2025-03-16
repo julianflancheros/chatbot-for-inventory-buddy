@@ -6,6 +6,8 @@ import FilterSection from "@/components/FilterSection";
 import ProductGrid from "@/components/ProductGrid";
 import ChatInterface from "@/components/ChatInterface";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { MessageSquare } from "lucide-react";
 
 const Index = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -96,8 +98,18 @@ const Index = () => {
         </div>
       </main>
       
-      {/* Chat Interface */}
-      <ChatInterface />
+      {/* Contact Us Button replacing ChatInterface */}
+      <div className="fixed bottom-6 right-6 z-50">
+        <Button
+          className="w-auto h-auto px-6 py-3 rounded-full shadow-lg transition-transform hover:scale-105 animate-float focus:outline-none"
+          asChild
+        >
+          <a href="https://makerstech.streamlit.app/" target="_blank" rel="noopener noreferrer">
+            <MessageSquare className="h-5 w-5 mr-2" />
+            Comunícate con nosotros
+          </a>
+        </Button>
+      </div>
     </div>
   );
 };
