@@ -18,7 +18,8 @@ export const categories = [
   'Laptops',
   'Audio',
   'Componentes PC',
-  'Monitores Gamer'
+  'Monitores Gamer',
+  'Smartphones'
 ];
 
 export const products: Product[] = [
@@ -458,6 +459,166 @@ export const products: Product[] = [
     recommendedUses: ['E-sports profesional', 'Competiciones de gaming', 'Streaming'],
     features: ['Tasa de refresco extrema de 360Hz', 'QHD con tiempo de respuesta mínimo', 'Tecnología de sincronización adaptativa', 'RGB personalizable'],
     rating: 4.9
+  },
+  // Smartphones
+  {
+    id: 'SPH-001',
+    name: 'QuantumMobile Nexus Pro 5G',
+    description: 'Smartphone flagship con hardware de última generación y excelentes capacidades fotográficas.',
+    price: 1099.99,
+    category: 'Smartphones',
+    inStock: true,
+    stockQuantity: 23,
+    imageUrl: 'https://images.unsplash.com/photo-1511707171634-5f897ff02ff9',
+    specifications: {
+      hardware: {
+        procesador: {
+          modelo: "Snapdragon 8 Gen 3",
+          nucleos: 8,
+          velocidad_max: "3.3 GHz"
+        },
+        memoria: {
+          ram: "12GB LPDDR5X",
+          almacenamiento: "256GB UFS 4.0",
+          expansion: false
+        }
+      },
+      pantalla: {
+        tipo: "Dynamic AMOLED 2X",
+        tamanio: "6.8''",
+        resolucion: "1440x3088",
+        refresh_rate: "120Hz",
+        proteccion: "Gorilla Glass Victus 3"
+      },
+      bateria: {
+        capacidad: "5000mAh",
+        carga_rapida: "100W",
+        inalambrica: true
+      }
+    },
+    recommendedUses: ['Fotografía móvil profesional', 'Gaming móvil', 'Multitarea intensa'],
+    features: ['Cámara de 200MP con estabilización avanzada', 'Pantalla AMOLED 120Hz', 'Carga ultrarrápida de 100W', 'Conectividad 5G'],
+    rating: 4.9
+  },
+  {
+    id: 'SPH-002',
+    name: 'PhotoMaster CamPro X',
+    description: 'Smartphone centrado en fotografía con sensor principal de 1 pulgada y zoom óptico 10x.',
+    price: 899.99,
+    category: 'Smartphones',
+    inStock: true,
+    stockQuantity: 17,
+    imageUrl: 'https://images.unsplash.com/photo-1592899677977-9c10ca588bbd',
+    specifications: {
+      hardware: {
+        procesador: "Dimensity 9200+",
+        memoria: {
+          ram: "16GB",
+          almacenamiento: "512GB"
+        }
+      },
+      camara: {
+        principal: "1'' Sony IMX989",
+        zoom: "10x óptico",
+        video: "8K@30fps"
+      },
+      bateria: "5500mAh con carga 120W"
+    },
+    recommendedUses: ['Fotografía móvil profesional', 'Videografía', 'Streaming'],
+    features: ['Sensor de 1 pulgada', 'Zoom óptico 10x', 'Batería de alta capacidad', 'Carga ultrarrápida'],
+    rating: 4.8
+  },
+  {
+    id: 'SPH-003',
+    name: 'NeoTech Ultra 7',
+    description: 'Smartphone de gama media-alta con excelente relación calidad-precio y rendimiento.',
+    price: 699.99,
+    category: 'Smartphones',
+    inStock: true,
+    stockQuantity: 35,
+    imageUrl: 'https://images.unsplash.com/photo-1612442443556-09b5b309e637',
+    specifications: {
+      hardware: {
+        procesador: "Exynos 2400",
+        memoria: {
+          ram: "8GB",
+          almacenamiento: "128GB"
+        }
+      },
+      bateria: "4800mAh carga 65W"
+    },
+    recommendedUses: ['Uso diario', 'Multimedia', 'Gaming casual'],
+    features: ['Excelente rendimiento', 'Carga rápida', 'Diseño premium', 'Actualizaciones garantizadas'],
+    rating: 4.6
+  },
+  {
+    id: 'SPH-004',
+    name: 'HyperPhone Max Power 5G',
+    description: 'Smartphone con gran potencia y batería de larga duración para usuarios intensivos.',
+    price: 799.99,
+    category: 'Smartphones',
+    inStock: true,
+    stockQuantity: 11,
+    imageUrl: 'https://images.unsplash.com/photo-1585060544812-6b45742d762f',
+    specifications: {
+      hardware: {
+        procesador: "Snapdragon 8 Gen 2",
+        memoria: {
+          ram: "12GB",
+          almacenamiento: "256GB"
+        }
+      },
+      bateria: "5000mAh carga 80W"
+    },
+    recommendedUses: ['Gaming móvil', 'Multitarea', 'Productividad'],
+    features: ['Gran autonomía', 'Refrigeración avanzada', 'Pantalla de alta frecuencia', 'Audio estéreo potente'],
+    rating: 4.7
+  },
+  {
+    id: 'SPH-005',
+    name: 'NextGen Prime X',
+    description: 'Smartphone premium con procesador de última generación y experiencia de usuario fluida.',
+    price: 1199.99,
+    category: 'Smartphones',
+    inStock: true,
+    stockQuantity: 8,
+    imageUrl: 'https://images.unsplash.com/photo-1591447337751-c7b95cf704be',
+    specifications: {
+      hardware: {
+        procesador: "Apple A17 Bionic",
+        memoria: {
+          ram: "8GB",
+          almacenamiento: "512GB"
+        }
+      },
+      bateria: "4500mAh carga 30W"
+    },
+    recommendedUses: ['Productividad', 'Creación de contenido', 'Uso empresarial'],
+    features: ['Rendimiento de CPU y GPU líderes', 'Sistema operativo optimizado', 'Ecosistema integrado', 'Soporte a largo plazo'],
+    rating: 4.9
+  },
+  {
+    id: 'SPH-006',
+    name: 'SmartTech Infinity Z',
+    description: 'Smartphone asequible con buena relación calidad-precio y batería de larga duración.',
+    price: 349.99,
+    category: 'Smartphones',
+    inStock: true,
+    stockQuantity: 45,
+    imageUrl: 'https://images.unsplash.com/photo-1581993192008-63e896f4f744',
+    specifications: {
+      hardware: {
+        procesador: "MediaTek Helio G99",
+        memoria: {
+          ram: "6GB",
+          almacenamiento: "128GB"
+        }
+      },
+      bateria: "5000mAh carga 33W"
+    },
+    recommendedUses: ['Uso diario', 'Estudiantes', 'Presupuesto ajustado'],
+    features: ['Batería de larga duración', 'Buen rendimiento para su precio', 'Almacenamiento ampliable', 'Diseño moderno'],
+    rating: 4.4
   }
 ];
 
