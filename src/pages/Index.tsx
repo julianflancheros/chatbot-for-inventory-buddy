@@ -97,15 +97,7 @@ const Index = () => {
       </main>
       
       {/* Chat Interface */}
-      <div className="fixed bottom-4 right-4">
-        <button
-          onClick={() => window.location.href = 'https://makerstech.streamlit.app/'}
-          className="bg-primary text-white px-4 py-2 rounded-full shadow-lg hover:bg-primary-dark transition"
-        >
-          Habla con nosotros
-        </button>
-      </div>
-            {/* <ChatInterface /> */}
+      <ChatInterface />
     </div>
   );
 };
