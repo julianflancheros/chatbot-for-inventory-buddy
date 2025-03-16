@@ -241,6 +241,44 @@ export const products: Product[] = [
     rating: 4.8
   },
   {
+    id: 'RAM-401',
+    name: 'Corsair Vengeance RGB Pro',
+    description: 'Memoria RAM de alto rendimiento con iluminación RGB personalizable para gaming y creación de contenido.',
+    price: 199.99,
+    category: 'Componentes PC',
+    inStock: true,
+    stockQuantity: 20,
+    imageUrl: 'https://images.unsplash.com/photo-1562976540-1502c2145186',
+    specifications: {
+      capacidad: "32GB (2x16GB)",
+      tipo: "DDR5",
+      frecuencia: "6000MHz",
+      latencia: "CL30"
+    },
+    recommendedUses: ['Gaming de alto rendimiento', 'Edición de video', 'Multitarea intensiva'],
+    features: ['Iluminación RGB personalizable', 'Diseño de perfil bajo', 'Alta velocidad', 'Compatible con AMD y Intel'],
+    rating: 4.7
+  },
+  {
+    id: 'SSD-501',
+    name: 'Samsung 980 Pro',
+    description: 'Unidad SSD NVMe de altísimo rendimiento para cargas de trabajo profesionales y gaming sin compromiso.',
+    price: 229.99,
+    category: 'Componentes PC',
+    inStock: true,
+    stockQuantity: 30,
+    imageUrl: 'https://images.unsplash.com/photo-1597138768-5cd627aecac3',
+    specifications: {
+      capacidad: "2TB",
+      tipo: "NVMe Gen4",
+      velocidad_lectura: "7000 MB/s",
+      velocidad_escritura: "5100 MB/s"
+    },
+    recommendedUses: ['Workstations', 'Gaming', 'Renderizado 3D', 'Cargas de trabajo intensivas'],
+    features: ['Velocidades extremadamente rápidas', 'Controlador Elpis', 'Tecnología TLC V-NAND', 'Compatible con NVMe'],
+    rating: 4.8
+  },
+  {
     id: 'MB-601',
     name: 'ASUS ROG Strix X670E-E',
     description: 'Placa base premium para procesadores AMD con características gaming avanzadas.',
@@ -259,6 +297,98 @@ export const products: Product[] = [
     features: ['Diseño de VRM robusto', 'Refrigeración avanzada', 'Iluminación Aura Sync', 'Audio SupremeFX'],
     rating: 4.7
   },
+  {
+    id: 'PSU-701',
+    name: 'EVGA SuperNOVA 1000W',
+    description: 'Fuente de alimentación de alta eficiencia con certificación 80+ Platinum para sistemas de gama alta.',
+    price: 189.99,
+    category: 'Componentes PC',
+    inStock: true,
+    stockQuantity: 15,
+    imageUrl: 'https://images.unsplash.com/photo-1587202372775-e229f172b9d7',
+    specifications: {
+      potencia: "1000W",
+      certificacion: "80+ Platinum",
+      modular: true
+    },
+    recommendedUses: ['Sistemas de alto rendimiento', 'Multi-GPU', 'Overclocking'],
+    features: ['Completamente modular', 'Ventilador silencioso', 'Cables de alta calidad', 'Alta eficiencia energética'],
+    rating: 4.8
+  },
+  {
+    id: 'CPU-202',
+    name: 'Intel Core i7-13700K',
+    description: 'Procesador de alto rendimiento para gaming y tareas multihilo con excelente rendimiento por núcleo.',
+    price: 419.99,
+    category: 'Componentes PC',
+    inStock: true,
+    stockQuantity: 12,
+    imageUrl: 'https://images.unsplash.com/photo-1625315175868-c45b674adf0b',
+    specifications: {
+      nucleos: 16,
+      hilos: 24,
+      frecuencia: "3.4GHz base / 5.4GHz boost"
+    },
+    recommendedUses: ['Gaming de alto nivel', 'Streaming', 'Edición de contenido'],
+    features: ['Arquitectura híbrida', 'Soporte para DDR5', 'Compatible con PCIe 5.0', 'Desbloqueado para overclocking'],
+    rating: 4.7
+  },
+  {
+    id: 'GPU-302',
+    name: 'AMD Radeon RX 7900 XTX',
+    description: 'Tarjeta gráfica de alto rendimiento con excelente eficiencia energética y tecnología RDNA 3.',
+    price: 999.99,
+    category: 'Componentes PC',
+    inStock: true,
+    stockQuantity: 8,
+    imageUrl: 'https://images.unsplash.com/photo-1622957040873-8ea24e293885',
+    specifications: {
+      vram: "24GB GDDR6",
+      velocidad: "2.5 GHz boost",
+      consumo: "355W",
+      conectores: ["2x 8-pin PCIe"]
+    },
+    recommendedUses: ['Gaming 4K', 'Creación de contenido', 'Aplicaciones de IA'],
+    features: ['Arquitectura RDNA 3', 'Ray Tracing de alto rendimiento', 'FSR 3.0', 'Alta eficiencia energética'],
+    rating: 4.7
+  },
+  {
+    id: 'CASE-801',
+    name: 'Lian Li PC-O11 Dynamic',
+    description: 'Gabinete premium con excelente flujo de aire y amplio espacio para componentes de alto rendimiento.',
+    price: 149.99,
+    category: 'Componentes PC',
+    inStock: true,
+    stockQuantity: 22,
+    imageUrl: 'https://images.unsplash.com/photo-1587202372616-b43abea06c2a',
+    specifications: {
+      factor_forma: "ATX",
+      ventilacion: "Soporta hasta 9 ventiladores",
+      panel_lateral: "Vidrio templado"
+    },
+    recommendedUses: ['Gaming', 'Modding', 'Sistemas de alto rendimiento'],
+    features: ['Diseño premium', 'Excelente espacio interior', 'Versatilidad para refrigeración', 'Fácil instalación'],
+    rating: 4.9
+  },
+  {
+    id: 'COOL-901',
+    name: 'NZXT Kraken X73',
+    description: 'Sistema de refrigeración líquida AIO de 360mm con iluminación RGB y excelente rendimiento térmico.',
+    price: 179.99,
+    category: 'Componentes PC',
+    inStock: true,
+    stockQuantity: 15,
+    imageUrl: 'https://images.unsplash.com/photo-1596691436188-c78a5d7e8b8a',
+    specifications: {
+      tipo: "Líquida",
+      radiador: "360mm",
+      iluminacion: "RGB"
+    },
+    recommendedUses: ['Overclocking', 'CPUs de alto rendimiento', 'Sistemas silenciosos'],
+    features: ['Iluminación Aer RGB', 'Software CAM', 'Bloque de CPU con pantalla infinita', 'Alta capacidad de disipación'],
+    rating: 4.8
+  },
+  
   // Monitores Gamer
   {
     id: 'MG-001',
@@ -520,191 +650,4 @@ export const products: Product[] = [
       camara: {
         principal: "1'' Sony IMX989",
         zoom: "10x óptico",
-        video: "8K@30fps"
-      },
-      bateria: "5500mAh con carga 120W"
-    },
-    recommendedUses: ['Fotografía móvil profesional', 'Videografía', 'Streaming'],
-    features: ['Sensor de 1 pulgada', 'Zoom óptico 10x', 'Batería de alta capacidad', 'Carga ultrarrápida'],
-    rating: 4.8
-  },
-  {
-    id: 'SPH-003',
-    name: 'NeoTech Ultra 7',
-    description: 'Smartphone de gama media-alta con excelente relación calidad-precio y rendimiento.',
-    price: 699.99,
-    category: 'Smartphones',
-    inStock: true,
-    stockQuantity: 35,
-    imageUrl: 'https://images.unsplash.com/photo-1612442443556-09b5b309e637',
-    specifications: {
-      hardware: {
-        procesador: "Exynos 2400",
-        memoria: {
-          ram: "8GB",
-          almacenamiento: "128GB"
-        }
-      },
-      bateria: "4800mAh carga 65W"
-    },
-    recommendedUses: ['Uso diario', 'Multimedia', 'Gaming casual'],
-    features: ['Excelente rendimiento', 'Carga rápida', 'Diseño premium', 'Actualizaciones garantizadas'],
-    rating: 4.6
-  },
-  {
-    id: 'SPH-004',
-    name: 'HyperPhone Max Power 5G',
-    description: 'Smartphone con gran potencia y batería de larga duración para usuarios intensivos.',
-    price: 799.99,
-    category: 'Smartphones',
-    inStock: true,
-    stockQuantity: 11,
-    imageUrl: 'https://images.unsplash.com/photo-1585060544812-6b45742d762f',
-    specifications: {
-      hardware: {
-        procesador: "Snapdragon 8 Gen 2",
-        memoria: {
-          ram: "12GB",
-          almacenamiento: "256GB"
-        }
-      },
-      bateria: "5000mAh carga 80W"
-    },
-    recommendedUses: ['Gaming móvil', 'Multitarea', 'Productividad'],
-    features: ['Gran autonomía', 'Refrigeración avanzada', 'Pantalla de alta frecuencia', 'Audio estéreo potente'],
-    rating: 4.7
-  },
-  {
-    id: 'SPH-005',
-    name: 'NextGen Prime X',
-    description: 'Smartphone premium con procesador de última generación y experiencia de usuario fluida.',
-    price: 1199.99,
-    category: 'Smartphones',
-    inStock: true,
-    stockQuantity: 8,
-    imageUrl: 'https://images.unsplash.com/photo-1591447337751-c7b95cf704be',
-    specifications: {
-      hardware: {
-        procesador: "Apple A17 Bionic",
-        memoria: {
-          ram: "8GB",
-          almacenamiento: "512GB"
-        }
-      },
-      bateria: "4500mAh carga 30W"
-    },
-    recommendedUses: ['Productividad', 'Creación de contenido', 'Uso empresarial'],
-    features: ['Rendimiento de CPU y GPU líderes', 'Sistema operativo optimizado', 'Ecosistema integrado', 'Soporte a largo plazo'],
-    rating: 4.9
-  },
-  {
-    id: 'SPH-006',
-    name: 'SmartTech Infinity Z',
-    description: 'Smartphone asequible con buena relación calidad-precio y batería de larga duración.',
-    price: 349.99,
-    category: 'Smartphones',
-    inStock: true,
-    stockQuantity: 45,
-    imageUrl: 'https://images.unsplash.com/photo-1581993192008-63e896f4f744',
-    specifications: {
-      hardware: {
-        procesador: "MediaTek Helio G99",
-        memoria: {
-          ram: "6GB",
-          almacenamiento: "128GB"
-        }
-      },
-      bateria: "5000mAh carga 33W"
-    },
-    recommendedUses: ['Uso diario', 'Estudiantes', 'Presupuesto ajustado'],
-    features: ['Batería de larga duración', 'Buen rendimiento para su precio', 'Almacenamiento ampliable', 'Diseño moderno'],
-    rating: 4.4
-  }
-];
-
-export const getFilteredProducts = (
-  searchTerm: string = '',
-  category: string = '',
-  minPrice: number = 0,
-  maxPrice: number = 10000,
-  inStockOnly: boolean = false
-): Product[] => {
-  return products.filter(product => {
-    const matchesSearch = 
-      searchTerm === '' || 
-      product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      product.description.toLowerCase().includes(searchTerm.toLowerCase());
-      
-    const matchesCategory = category === '' || product.category === category;
-    
-    const matchesPrice = product.price >= minPrice && product.price <= maxPrice;
-    
-    const matchesStock = inStockOnly ? product.inStock : true;
-    
-    return matchesSearch && matchesCategory && matchesPrice && matchesStock;
-  });
-};
-
-export const getProductById = (id: string): Product | undefined => {
-  return products.find(product => product.id === id);
-};
-
-export const botResponses = {
-  greeting: "¡Hola! Bienvenido a Makers Tech. ¿En qué puedo ayudarte hoy? Puedes preguntarme sobre nuestros productos, estado del inventario o cualquier pregunta técnica específica.",
-  
-  notFound: "No encontré productos que coincidan con tus criterios. ¿Te gustaría intentar otra búsqueda?",
-  
-  productFound: (count: number) => `Encontré ${count} productos que podrían interesarte. Aquí están:`,
-  
-  productDetail: (product: Product) => `
-    ${product.name} está ${product.inStock ? 'actualmente en stock' : 'actualmente fuera de stock'}. 
-    ${product.stockQuantity > 0 ? `Tenemos ${product.stockQuantity} unidades disponibles.` : ''}
-    
-    El precio es $${product.price.toFixed(2)}${product.discountedPrice ? ` (En oferta: $${product.discountedPrice.toFixed(2)})` : ''}.
-    
-    Características principales: ${product.features.join(', ')}.
-  `,
-  
-  askMore: "¿Te gustaría saber más sobre algún producto específico? ¿O quieres refinar tu búsqueda?",
-  
-  priceInfo: (product: Product) => `
-    El ${product.name} tiene un precio de $${product.price.toFixed(2)}.
-    ${product.discountedPrice ? `Actualmente está en oferta por $${product.discountedPrice.toFixed(2)}, ¡ahorrando $${(product.price - product.discountedPrice).toFixed(2)}!` : ''}
-  `,
-  
-  inventoryStatus: (product: Product) => `
-    El ${product.name} está ${product.inStock ? 'en stock' : 'actualmente fuera de stock'}.
-    ${product.stockQuantity > 0 ? `Tenemos ${product.stockQuantity} unidades disponibles para envío inmediato.` : 'Esperamos reabastecerlo pronto.'}
-  `,
-  
-  specifications: (product: Product) => {
-    let specText = `Aquí están las especificaciones para ${product.name}:\n`;
-    for (const [key, value] of Object.entries(product.specifications)) {
-      if (typeof value === 'object' && value !== null) {
-        specText += `- ${key.charAt(0).toUpperCase() + key.slice(1)}:\n`;
-        for (const [subKey, subValue] of Object.entries(value)) {
-          specText += `  * ${subKey}: ${subValue}\n`;
-        }
-      } else {
-        specText += `- ${key.charAt(0).toUpperCase() + key.slice(1)}: ${value}\n`;
-      }
-    }
-    return specText;
-  },
-  
-  recommendedUses: (product: Product) => `
-    El ${product.name} es recomendado para: ${product.recommendedUses.join(', ')}.
-  `,
-  
-  compareProducts: (product1: Product, product2: Product) => `
-    Comparando ${product1.name} vs ${product2.name}:
-    
-    Precio: $${product1.price.toFixed(2)} vs $${product2.price.toFixed(2)}
-    
-    Principales diferencias:
-    - Categoría: ${product1.category} vs ${product2.category}
-    - ${product1.name} ${product1.inStock ? 'está en stock' : 'está fuera de stock'} y ${product2.name} ${product2.inStock ? 'está en stock' : 'está fuera de stock'}
-  `,
-  
-  fallback: "No estoy seguro de entender tu pregunta. ¿Podrías reformularla? Puedes preguntar sobre detalles del producto, precios, inventario o especificaciones."
-};
+        video: "

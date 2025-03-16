@@ -21,7 +21,7 @@ const ProductGrid = ({ products, isLoading = false }: ProductGridProps) => {
   if (products.length === 0) {
     return (
       <div className="flex items-center justify-center h-60 bg-muted/30 rounded-xl">
-        <p className="text-muted-foreground">No products found</p>
+        <p className="text-muted-foreground">No se encontraron productos</p>
       </div>
     );
   }
