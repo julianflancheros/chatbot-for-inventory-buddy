@@ -1,4 +1,3 @@
-
 export interface Product {
   id: string;
   name: string;
@@ -18,7 +17,8 @@ export interface Product {
 export const categories = [
   'Laptops',
   'Audio',
-  'Componentes PC'
+  'Componentes PC',
+  'Monitores Gamer'
 ];
 
 export const products: Product[] = [
@@ -257,6 +257,207 @@ export const products: Product[] = [
     recommendedUses: ['Gaming de alto nivel', 'Overclocking', 'Sistemas con múltiples dispositivos'],
     features: ['Diseño de VRM robusto', 'Refrigeración avanzada', 'Iluminación Aura Sync', 'Audio SupremeFX'],
     rating: 4.7
+  },
+  // Monitores Gamer
+  {
+    id: 'MG-001',
+    name: 'HyperVision UltraSpeed 27',
+    description: 'Monitor gamer de 27 pulgadas con alta tasa de refresco y tiempo de respuesta ultrarrápido.',
+    price: 499.99,
+    category: 'Monitores Gamer',
+    inStock: true,
+    stockQuantity: 10,
+    imageUrl: 'https://images.unsplash.com/photo-1616788494707-ec28f08d05a1',
+    specifications: {
+      tamaño: "27''",
+      resolucion: "2560x1440",
+      tasa_refresco: "240Hz",
+      tiempo_respuesta: "1ms",
+      panel: "IPS"
+    },
+    recommendedUses: ['Gaming competitivo', 'E-sports', 'Diseño gráfico'],
+    features: ['Alta tasa de refresco de 240Hz', 'Tiempo de respuesta de 1ms', 'Resolución QHD', 'Panel IPS con colores vibrantes'],
+    rating: 4.7
+  },
+  {
+    id: 'MG-002',
+    name: 'GamerElite Xtreme 32',
+    description: 'Monitor de 32 pulgadas con resolución 4K y excelente calidad de imagen para gaming inmersivo.',
+    price: 699.99,
+    category: 'Monitores Gamer',
+    inStock: true,
+    stockQuantity: 8,
+    imageUrl: 'https://images.unsplash.com/photo-1595328651889-29b023f14263',
+    specifications: {
+      tamaño: "32''",
+      resolucion: "3840x2160",
+      tasa_refresco: "144Hz",
+      tiempo_respuesta: "1ms",
+      panel: "VA"
+    },
+    recommendedUses: ['Gaming 4K', 'Edición de video', 'Diseño gráfico profesional'],
+    features: ['Resolución 4K UHD', 'Panel VA con alto contraste', 'Tasa de refresco 144Hz', 'Compatible con HDR'],
+    rating: 4.6
+  },
+  {
+    id: 'MG-003',
+    name: 'VisionTech ProGamer 24',
+    description: 'Monitor económico de 24 pulgadas con tiempo de respuesta ultrarrápido ideal para gaming competitivo.',
+    price: 249.99,
+    category: 'Monitores Gamer',
+    inStock: true,
+    stockQuantity: 15,
+    imageUrl: 'https://images.unsplash.com/photo-1619953942547-233eab5a70d4',
+    specifications: {
+      tamaño: "24''",
+      resolucion: "1920x1080",
+      tasa_refresco: "165Hz",
+      tiempo_respuesta: "0.5ms",
+      panel: "TN"
+    },
+    recommendedUses: ['E-sports', 'FPS competitivo', 'Gaming de alta velocidad'],
+    features: ['Tiempo de respuesta ultrarápido de 0.5ms', 'Panel TN de alta velocidad', 'Tasa de refresco 165Hz', 'Perfecto para juegos competitivos'],
+    rating: 4.5
+  },
+  {
+    id: 'MG-004',
+    name: 'XtremeView CurvaMaster 34',
+    description: 'Monitor curvo ultrawide de 34 pulgadas para una experiencia gaming inmersiva.',
+    price: 899.99,
+    category: 'Monitores Gamer',
+    inStock: true,
+    stockQuantity: 5,
+    imageUrl: 'https://images.unsplash.com/photo-1623934199716-dc28818a6ec7',
+    specifications: {
+      tamaño: "34''",
+      resolucion: "3440x1440",
+      tasa_refresco: "175Hz",
+      tiempo_respuesta: "1ms",
+      panel: "IPS Curvo"
+    },
+    recommendedUses: ['Gaming inmersivo', 'Simuladores', 'Productividad multitarea'],
+    features: ['Pantalla curva ultrawide', 'Formato 21:9', 'Panel IPS con excelente reproducción del color', 'Compatible con G-Sync y FreeSync'],
+    rating: 4.8
+  },
+  {
+    id: 'MG-005',
+    name: 'NeonPixel FastPlay 27',
+    description: 'Monitor gaming de 27 pulgadas con excelente relación calidad-precio y buena tasa de refresco.',
+    price: 429.99,
+    category: 'Monitores Gamer',
+    inStock: true,
+    stockQuantity: 12,
+    imageUrl: 'https://images.unsplash.com/photo-1614624532983-4ce03382d63d',
+    specifications: {
+      tamaño: "27''",
+      resolucion: "2560x1440",
+      tasa_refresco: "165Hz",
+      tiempo_respuesta: "1ms",
+      panel: "IPS"
+    },
+    recommendedUses: ['Gaming casual', 'Uso diario', 'Multimedia'],
+    features: ['Resolución QHD', 'Panel IPS con colores precisos', 'Tasa de refresco 165Hz', 'Iluminación ambiental RGB'],
+    rating: 4.6
+  },
+  {
+    id: 'MG-006',
+    name: 'UltraGear Elite32 4K',
+    description: 'Monitor 4K de alta gama con 32 pulgadas y excelente calidad de imagen para gaming premium.',
+    price: 799.99,
+    category: 'Monitores Gamer',
+    inStock: true,
+    stockQuantity: 7,
+    imageUrl: 'https://images.unsplash.com/photo-1589241062272-c0a000072dfa',
+    specifications: {
+      tamaño: "32''",
+      resolucion: "3840x2160",
+      tasa_refresco: "144Hz",
+      tiempo_respuesta: "1ms",
+      panel: "IPS"
+    },
+    recommendedUses: ['Gaming 4K', 'Edición profesional', 'Visualización de contenido HDR'],
+    features: ['Panel IPS 4K', 'HDR 1000', 'Cobertura 98% DCI-P3', 'Calibración de fábrica'],
+    rating: 4.9
+  },
+  {
+    id: 'MG-007',
+    name: 'DarkVision Stealth 24',
+    description: 'Monitor compacto de 24 pulgadas con altísima tasa de refresco para gaming competitivo profesional.',
+    price: 279.99,
+    category: 'Monitores Gamer',
+    inStock: true,
+    stockQuantity: 14,
+    imageUrl: 'https://images.unsplash.com/photo-1585792180666-f7347c490ee2',
+    specifications: {
+      tamaño: "24''",
+      resolucion: "1920x1080",
+      tasa_refresco: "240Hz",
+      tiempo_respuesta: "0.5ms",
+      panel: "TN"
+    },
+    recommendedUses: ['E-sports profesional', 'FPS competitivo', 'Gaming de alta velocidad'],
+    features: ['240Hz para máxima fluidez', 'Tiempo de respuesta mínimo', 'Diseño sin marcos', 'Soporte ajustable en altura'],
+    rating: 4.5
+  },
+  {
+    id: 'MG-008',
+    name: 'OpticView ProUltra 29',
+    description: 'Monitor ultrawide de 29 pulgadas con formato 21:9 y alta tasa de refresco.',
+    price: 499.99,
+    category: 'Monitores Gamer',
+    inStock: true,
+    stockQuantity: 9,
+    imageUrl: 'https://images.unsplash.com/photo-1616788867657-97b23197f50f',
+    specifications: {
+      tamaño: "29''",
+      resolucion: "2560x1080",
+      tasa_refresco: "200Hz",
+      tiempo_respuesta: "1ms",
+      panel: "IPS"
+    },
+    recommendedUses: ['Multitarea', 'Gaming panorámico', 'Productividad'],
+    features: ['Formato ultrawide 21:9', 'Alta tasa de refresco de 200Hz', 'Panel IPS con buena reproducción cromática', 'Diseño sin marcos'],
+    rating: 4.6
+  },
+  {
+    id: 'MG-009',
+    name: 'GigaScreen HyperWide 49',
+    description: 'Monitor superultrawide curvo de 49 pulgadas para una experiencia de inmersión total.',
+    price: 1299.99,
+    category: 'Monitores Gamer',
+    inStock: true,
+    stockQuantity: 3,
+    imageUrl: 'https://images.unsplash.com/photo-1547119957-637f8679db1e',
+    specifications: {
+      tamaño: "49''",
+      resolucion: "5120x1440",
+      tasa_refresco: "120Hz",
+      tiempo_respuesta: "2ms",
+      panel: "VA Curvo"
+    },
+    recommendedUses: ['Simuladores', 'Productividad profesional', 'Gaming inmersivo'],
+    features: ['Pantalla super ultrawide equivalente a dos monitores 27" QHD', 'Curvatura 1800R', 'Picture-by-picture', 'KVM integrado'],
+    rating: 4.7
+  },
+  {
+    id: 'MG-010',
+    name: 'NeonTech Vision360 27',
+    description: 'Monitor gaming premium de 27 pulgadas con máxima tasa de refresco para gamers profesionales.',
+    price: 999.99,
+    category: 'Monitores Gamer',
+    inStock: true,
+    stockQuantity: 6,
+    imageUrl: 'https://images.unsplash.com/photo-1603481546238-487240415921',
+    specifications: {
+      tamaño: "27''",
+      resolucion: "2560x1440",
+      tasa_refresco: "360Hz",
+      tiempo_respuesta: "0.5ms",
+      panel: "IPS"
+    },
+    recommendedUses: ['E-sports profesional', 'Competiciones de gaming', 'Streaming'],
+    features: ['Tasa de refresco extrema de 360Hz', 'QHD con tiempo de respuesta mínimo', 'Tecnología de sincronización adaptativa', 'RGB personalizable'],
+    rating: 4.9
   }
 ];
 
@@ -287,7 +488,6 @@ export const getProductById = (id: string): Product | undefined => {
   return products.find(product => product.id === id);
 };
 
-// Sample bot messages for the chat interface
 export const botResponses = {
   greeting: "¡Hola! Bienvenido a Makers Tech. ¿En qué puedo ayudarte hoy? Puedes preguntarme sobre nuestros productos, estado del inventario o cualquier pregunta técnica específica.",
   
