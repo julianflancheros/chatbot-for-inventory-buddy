@@ -143,6 +143,128 @@ export const products: Product[] = [
     features: ['GPU de gama alta', 'Pantalla 4K 144Hz', 'Sistema de refrigeración avanzado'],
     rating: 4.9
   },
+  // Adding new laptop products
+  {
+    id: 'LT-106',
+    name: 'SpeedTech RapidBook 13',
+    description: 'Laptop compacta con procesador Apple M2 y excelente autonomía.',
+    price: 1599.99,
+    category: 'Laptops',
+    inStock: true,
+    stockQuantity: 16,
+    imageUrl: 'https://images.unsplash.com/photo-1593642632823-8f785ba67e45',
+    specifications: {
+      procesador: "Apple M2",
+      graficos: "Apple GPU 10-core",
+      pantalla: {
+        tamanio: "13.3''",
+        resolucion: "2560x1600"
+      },
+      almacenamiento: "512GB SSD",
+      conectividad: ["WiFi 6E", "USB4"]
+    },
+    recommendedUses: ['Trabajo móvil', 'Estudiantes', 'Uso diario'],
+    features: ['Procesador de alto rendimiento', 'Gran autonomía', 'Diseño ultraligero', 'Sistema silencioso'],
+    rating: 4.8
+  },
+  {
+    id: 'LT-107',
+    name: 'EliteBook Pro X2',
+    description: 'Laptop profesional convertible con pantalla táctil y características de seguridad avanzadas.',
+    price: 899.99,
+    category: 'Laptops',
+    inStock: true,
+    stockQuantity: 26,
+    imageUrl: 'https://images.unsplash.com/photo-1611078489935-0cb964de46d6',
+    specifications: {
+      procesador: "Intel Core i5-1335U",
+      graficos: "Intel Iris Xe",
+      pantalla: {
+        tamanio: "12.3''",
+        resolucion: "1920x1280",
+        tactil: true
+      },
+      almacenamiento: "256GB SSD",
+      seguridad: ["Lector de huellas", "Windows Hello"]
+    },
+    recommendedUses: ['Uso profesional', 'Presentaciones', 'Trabajo de campo'],
+    features: ['Pantalla táctil', 'Modo convertible', 'Seguridad empresarial', 'Batería de larga duración'],
+    rating: 4.5
+  },
+  {
+    id: 'LT-108',
+    name: 'FutureTech NeoPad 2',
+    description: 'Laptop ultraportátil con conectividad 5G y pantalla táctil de alta resolución.',
+    price: 1299.99,
+    category: 'Laptops',
+    inStock: false,
+    stockQuantity: 7,
+    imageUrl: 'https://images.unsplash.com/photo-1629131726692-1accd0c53ce0',
+    specifications: {
+      procesador: "Qualcomm Snapdragon 8cx Gen 3",
+      graficos: "Adreno 690",
+      pantalla: {
+        tamanio: "13.5''",
+        resolucion: "2256x1504",
+        tactil: true
+      },
+      almacenamiento: "512GB NVMe",
+      conectividad: ["5G", "WiFi 6E"]
+    },
+    recommendedUses: ['Trabajo en movilidad', 'Conferencias', 'Conectividad permanente'],
+    features: ['Conectividad 5G integrada', 'Autonomía de todo el día', 'Diseño ultradelgado', 'Always-On'],
+    rating: 4.7
+  },
+  {
+    id: 'LT-109',
+    name: 'HyperNova XtremeBook 15',
+    description: 'Laptop gaming equilibrada con pantalla de alta frecuencia para gaming competitivo.',
+    price: 1799.99,
+    category: 'Laptops',
+    inStock: true,
+    stockQuantity: 12,
+    imageUrl: 'https://images.unsplash.com/photo-1611186871348-b1ce696e52c9',
+    specifications: {
+      procesador: "Intel Core i7-13700H",
+      graficos: "RTX 4060 8GB",
+      pantalla: {
+        tamanio: "15.6''",
+        resolucion: "2560x1440",
+        refresh_rate: "165Hz"
+      },
+      almacenamiento: "1TB NVMe",
+      teclado: "RGB personalizable"
+    },
+    recommendedUses: ['Gaming competitivo', 'Streaming', 'Trabajo creativo'],
+    features: ['Panel de 165Hz', 'GPU de gama media-alta', 'Sistema de refrigeración avanzado', 'Teclado gaming'],
+    rating: 4.7
+  },
+  {
+    id: 'LT-110',
+    name: 'ZenPro Flex 360',
+    description: 'Laptop convertible 2-en-1 versátil para trabajo y entretenimiento.',
+    price: 1099.99,
+    category: 'Laptops',
+    inStock: true,
+    stockQuantity: 26,
+    imageUrl: 'https://images.unsplash.com/photo-1542393545-10f5cde2c810',
+    specifications: {
+      procesador: "AMD Ryzen 5 7640U",
+      graficos: "AMD Radeon 760M",
+      pantalla: {
+        tamanio: "14''",
+        resolucion: "1920x1080",
+        tactil: true,
+        modo: "2-en-1 convertible"
+      },
+      almacenamiento: "512GB SSD",
+      conectividad: ["USB-C", "WiFi 6"]
+    },
+    recommendedUses: ['Trabajo híbrido', 'Estudiantes', 'Consumo de contenido'],
+    features: ['Pantalla táctil convertible', 'Bisagra 360°', 'Lápiz óptico incluido', 'Autonomía todo el día'],
+    rating: 4.6
+  },
+  
   // Audio Products
   {
     id: 'AUD-401',
@@ -527,126 +649,4 @@ export const products: Product[] = [
       panel: "TN"
     },
     recommendedUses: ['E-sports profesional', 'FPS competitivo', 'Gaming de alta velocidad'],
-    features: ['240Hz para máxima fluidez', 'Tiempo de respuesta mínimo', 'Diseño sin marcos', 'Soporte ajustable en altura'],
-    rating: 4.5
-  },
-  {
-    id: 'MG-008',
-    name: 'OpticView ProUltra 29',
-    description: 'Monitor ultrawide de 29 pulgadas con formato 21:9 y alta tasa de refresco.',
-    price: 499.99,
-    category: 'Monitores Gamer',
-    inStock: true,
-    stockQuantity: 9,
-    imageUrl: 'https://images.unsplash.com/photo-1616788867657-97b23197f50f',
-    specifications: {
-      tamaño: "29''",
-      resolucion: "2560x1080",
-      tasa_refresco: "200Hz",
-      tiempo_respuesta: "1ms",
-      panel: "IPS"
-    },
-    recommendedUses: ['Multitarea', 'Gaming panorámico', 'Productividad'],
-    features: ['Formato ultrawide 21:9', 'Alta tasa de refresco de 200Hz', 'Panel IPS con buena reproducción cromática', 'Diseño sin marcos'],
-    rating: 4.6
-  },
-  {
-    id: 'MG-009',
-    name: 'GigaScreen HyperWide 49',
-    description: 'Monitor superultrawide curvo de 49 pulgadas para una experiencia de inmersión total.',
-    price: 1299.99,
-    category: 'Monitores Gamer',
-    inStock: true,
-    stockQuantity: 3,
-    imageUrl: 'https://images.unsplash.com/photo-1547119957-637f8679db1e',
-    specifications: {
-      tamaño: "49''",
-      resolucion: "5120x1440",
-      tasa_refresco: "120Hz",
-      tiempo_respuesta: "2ms",
-      panel: "VA Curvo"
-    },
-    recommendedUses: ['Simuladores', 'Productividad profesional', 'Gaming inmersivo'],
-    features: ['Pantalla super ultrawide equivalente a dos monitores 27" QHD', 'Curvatura 1800R', 'Picture-by-picture', 'KVM integrado'],
-    rating: 4.7
-  },
-  {
-    id: 'MG-010',
-    name: 'NeonTech Vision360 27',
-    description: 'Monitor gaming premium de 27 pulgadas con máxima tasa de refresco para gamers profesionales.',
-    price: 999.99,
-    category: 'Monitores Gamer',
-    inStock: true,
-    stockQuantity: 6,
-    imageUrl: 'https://images.unsplash.com/photo-1603481546238-487240415921',
-    specifications: {
-      tamaño: "27''",
-      resolucion: "2560x1440",
-      tasa_refresco: "360Hz",
-      tiempo_respuesta: "0.5ms",
-      panel: "IPS"
-    },
-    recommendedUses: ['E-sports profesional', 'Competiciones de gaming', 'Streaming'],
-    features: ['Tasa de refresco extrema de 360Hz', 'QHD con tiempo de respuesta mínimo', 'Tecnología de sincronización adaptativa', 'RGB personalizable'],
-    rating: 4.9
-  },
-  // Smartphones
-  {
-    id: 'SPH-001',
-    name: 'QuantumMobile Nexus Pro 5G',
-    description: 'Smartphone flagship con hardware de última generación y excelentes capacidades fotográficas.',
-    price: 1099.99,
-    category: 'Smartphones',
-    inStock: true,
-    stockQuantity: 23,
-    imageUrl: 'https://images.unsplash.com/photo-1511707171634-5f897ff02ff9',
-    specifications: {
-      hardware: {
-        procesador: {
-          modelo: "Snapdragon 8 Gen 3",
-          nucleos: 8,
-          velocidad_max: "3.3 GHz"
-        },
-        memoria: {
-          ram: "12GB LPDDR5X",
-          almacenamiento: "256GB UFS 4.0",
-          expansion: false
-        }
-      },
-      pantalla: {
-        tipo: "Dynamic AMOLED 2X",
-        tamanio: "6.8''",
-        resolucion: "1440x3088",
-        refresh_rate: "120Hz",
-        proteccion: "Gorilla Glass Victus 3"
-      },
-      bateria: {
-        capacidad: "5000mAh",
-        carga_rapida: "100W",
-        inalambrica: true
-      }
-    },
-    recommendedUses: ['Fotografía móvil profesional', 'Gaming móvil', 'Multitarea intensa'],
-    features: ['Cámara de 200MP con estabilización avanzada', 'Pantalla AMOLED 120Hz', 'Carga ultrarrápida de 100W', 'Conectividad 5G'],
-    rating: 4.9
-  },
-  {
-    id: 'SPH-002',
-    name: 'PhotoMaster CamPro X',
-    description: 'Smartphone centrado en fotografía con sensor principal de 1 pulgada y zoom óptico 10x.',
-    price: 899.99,
-    category: 'Smartphones',
-    inStock: true,
-    stockQuantity: 17,
-    imageUrl: 'https://images.unsplash.com/photo-1592899677977-9c10ca588bbd',
-    specifications: {
-      hardware: {
-        procesador: "Dimensity 9200+",
-        memoria: {
-          ram: "16GB",
-          almacenamiento: "512GB"
-        }
-      },
-      camara: {
-        principal: "1'' Sony IMX989",
-        zoom: "10x óptico",
+    features: ['240Hz para máxima fluidez', 'Tiempo de respuesta mínimo',
